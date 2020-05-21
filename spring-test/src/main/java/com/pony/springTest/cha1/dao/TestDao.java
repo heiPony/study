@@ -1,4 +1,4 @@
-package com.pony.springtest.cha1.dao;
+package com.pony.springTest.cha1.dao;
 
 import org.springframework.stereotype.Repository;
 

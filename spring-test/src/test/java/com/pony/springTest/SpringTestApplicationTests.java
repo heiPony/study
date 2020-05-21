@@ -1,4 +1,4 @@
-package com.pony.springtest;
+package com.pony.springTest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

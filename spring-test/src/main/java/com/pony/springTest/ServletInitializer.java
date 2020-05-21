@@ -1,4 +1,4 @@
-package com.pony.springtest;
+package com.pony.springTest;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

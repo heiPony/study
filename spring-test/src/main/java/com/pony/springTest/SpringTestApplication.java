@@ -1,4 +1,4 @@
-package com.pony.springtest;
+package com.pony.springTest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

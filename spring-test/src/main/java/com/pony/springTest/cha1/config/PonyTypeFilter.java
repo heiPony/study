@@ -1,4 +1,4 @@
-package com.pony.springtest.cha1.config;
+package com.pony.springTest.cha1.config;
 
 import org.springframework.core.io.Resource;
 import org.springframework.core.type.AnnotationMetadata;

@@ -1,4 +1,4 @@
-package com.pony.springtest.cha2.controller;
+package com.pony.springTest.cha2.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 

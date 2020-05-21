@@ -1,4 +1,4 @@
-package com.pony.springtest.cha2.config;
+package com.pony.springTest.cha2.config;
 
 import org.springframework.core.io.Resource;
 import org.springframework.core.type.AnnotationMetadata;

@@ -1,6 +1,6 @@
-package com.pony.springtest;
+package com.pony.springTest;
 
-import com.pony.springtest.cha1.config.AppConfig;
+import com.pony.springTest.cha1.config.AppConfig;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -11,7 +11,7 @@ public class PonyTest {
         AnnotationConfigApplicationContext app = new AnnotationConfigApplicationContext(AppConfig.class);
         String[] names = app.getBeanDefinitionNames();
         for (String name : names) {
-            System.out.println(name);
+            System.out.println(name+"ss");
         }
 
     }
