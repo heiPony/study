@@ -3,7 +3,7 @@ package com.pony.concurrent.ch7.tranfer.service;
 import com.pony.concurrent.ch7.tranfer.UserAccount;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：不安全的转账动作的实现
  */

@@ -1,9 +1,7 @@
 package com.pony.concurrent.ch1.syn;
 
-import com.pony.concurrent.tools.SleepTools;
-
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：
  */

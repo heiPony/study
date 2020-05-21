@@ -3,11 +3,9 @@ package com.pony.concurrent.ch4.aqs;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：奇葩点的三元共享同步工具类
  */

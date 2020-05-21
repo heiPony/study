@@ -3,8 +3,6 @@ package com.pony.concurrent.ch2.forkjoin.sum;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
-import com.pony.concurrent.tools.SleepTools;
-
 public class SumArray {
     private static class SumTask extends RecursiveTask<Integer>{
 

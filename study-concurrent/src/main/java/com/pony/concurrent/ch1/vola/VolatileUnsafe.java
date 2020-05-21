@@ -3,7 +3,7 @@ package com.pony.concurrent.ch1.vola;
 import com.pony.concurrent.tools.SleepTools;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：演示violate无法提供操作的原子性
  */

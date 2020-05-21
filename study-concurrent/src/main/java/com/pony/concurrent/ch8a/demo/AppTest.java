@@ -1,14 +1,14 @@
 package com.pony.concurrent.ch8a.demo;
 
-import java.util.List;
-import java.util.Random;
-
 import com.pony.concurrent.ch8a.PendingJobPool;
 import com.pony.concurrent.ch8a.vo.TaskResult;
 import com.pony.concurrent.tools.SleepTools;
 
+import java.util.List;
+import java.util.Random;
+
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：模拟一个应用程序，提交工作和任务，并查询任务进度
  */

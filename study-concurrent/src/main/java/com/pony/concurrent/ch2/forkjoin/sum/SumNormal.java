@@ -1,7 +1,5 @@
 package com.pony.concurrent.ch2.forkjoin.sum;
 
-import com.pony.concurrent.tools.SleepTools;
-
 public class SumNormal {
 	
 	public static void main(String[] args) {

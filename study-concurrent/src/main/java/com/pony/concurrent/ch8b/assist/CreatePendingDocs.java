@@ -1,6 +1,5 @@
 package com.pony.concurrent.ch8b.assist;
 
-import com.pony.concurrent.ch8b.assist.Consts;
 import com.pony.concurrent.ch8b.vo.SrcDocVo;
 
 import java.util.LinkedList;
@@ -9,7 +8,7 @@ import java.util.Random;
 
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：生成待处理文档
  */

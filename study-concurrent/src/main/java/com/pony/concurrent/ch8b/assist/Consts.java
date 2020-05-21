@@ -1,7 +1,7 @@
 package com.pony.concurrent.ch8b.assist;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：系统常量类
  */

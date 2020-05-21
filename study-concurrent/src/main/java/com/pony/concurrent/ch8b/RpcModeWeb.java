@@ -1,22 +1,16 @@
 package com.pony.concurrent.ch8b;
 
-import java.util.List;
-import java.util.concurrent.Callable;
-import java.util.concurrent.CompletionService;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorCompletionService;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-
 import com.pony.concurrent.ch8b.assist.Consts;
 import com.pony.concurrent.ch8b.assist.CreatePendingDocs;
 import com.pony.concurrent.ch8b.assist.SL_QuestionBank;
 import com.pony.concurrent.ch8b.service.ProduceDocService;
 import com.pony.concurrent.ch8b.vo.SrcDocVo;
 
+import java.util.List;
+import java.util.concurrent.*;
+
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：rpc服务端，采用生产者消费者模式，生产者消费者还会级联
  */

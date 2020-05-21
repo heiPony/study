@@ -1,7 +1,7 @@
 package com.pony.concurrent.ch5.bq;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：订单的实体类
  */

@@ -1,7 +1,7 @@
 package com.pony.concurrent.ch7.dcl;
 
 /**
- * @author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ * @author
  * 懒汉式-类初始化模式
  */
 public class SingleInit {

@@ -1,20 +1,15 @@
 package com.pony.concurrent.ch8b.service.question;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-import java.util.concurrent.FutureTask;
-
 import com.pony.concurrent.ch8b.assist.Consts;
 import com.pony.concurrent.ch8b.assist.SL_QuestionBank;
 import com.pony.concurrent.ch8b.vo.QuestionInCacheVo;
 import com.pony.concurrent.ch8b.vo.QuestionInDBVo;
 import com.pony.concurrent.ch8b.vo.TaskResultVo;
 
+import java.util.concurrent.*;
+
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：并发处理题目的服务
  */

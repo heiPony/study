@@ -1,12 +1,12 @@
 package com.pony.concurrent.ch7.tranfer.service;
 
-import java.util.Random;
-
 import com.pony.concurrent.ch7.tranfer.UserAccount;
 import com.pony.concurrent.tools.SleepTools;
 
+import java.util.Random;
+
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：不会产生死锁的安全转账第二种方法，尝试拿锁
  */

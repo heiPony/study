@@ -1,13 +1,13 @@
 package com.pony.concurrent.ch4.rw;
 
+import com.pony.concurrent.tools.SleepTools;
+
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-import com.pony.concurrent.tools.SleepTools;
-
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：
  */

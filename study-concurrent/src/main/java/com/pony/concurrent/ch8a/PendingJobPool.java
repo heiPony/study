@@ -1,18 +1,16 @@
 package com.pony.concurrent.ch8a;
 
+import com.pony.concurrent.ch8a.vo.ITaskProcesser;
+import com.pony.concurrent.ch8a.vo.JobInfo;
+import com.pony.concurrent.ch8a.vo.TaskResult;
+import com.pony.concurrent.ch8a.vo.TaskResultType;
+
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
-
-import com.pony.concurrent.ch8a.vo.*;
+import java.util.concurrent.*;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  * 框架的主体类，也是调用者主要使用的类
  */
 public class PendingJobPool {

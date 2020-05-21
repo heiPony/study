@@ -1,7 +1,7 @@
 package com.pony.concurrent.ch4.condition;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：测试Lock和Condition实现等待通知
  */

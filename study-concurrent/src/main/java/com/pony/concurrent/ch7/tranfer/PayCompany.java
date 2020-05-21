@@ -1,12 +1,10 @@
 package com.pony.concurrent.ch7.tranfer;
 
 import com.pony.concurrent.ch7.tranfer.service.ITransfer;
-import com.pony.concurrent.ch7.tranfer.service.SafeOperate;
 import com.pony.concurrent.ch7.tranfer.service.SafeOperateToo;
-import com.pony.concurrent.ch7.tranfer.service.TrasnferAccount;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：模拟支付公司转账的动作
  */

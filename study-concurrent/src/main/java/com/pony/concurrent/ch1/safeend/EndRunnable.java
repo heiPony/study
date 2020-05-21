@@ -1,7 +1,7 @@
 package com.pony.concurrent.ch1.safeend;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：中断Runnable类型的线程
  */

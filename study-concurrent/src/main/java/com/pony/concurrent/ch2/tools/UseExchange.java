@@ -1,13 +1,11 @@
 package com.pony.concurrent.ch2.tools;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 import java.util.concurrent.Exchanger;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：Exchange的使用
  */

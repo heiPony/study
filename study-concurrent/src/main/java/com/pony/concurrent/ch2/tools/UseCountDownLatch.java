@@ -1,11 +1,11 @@
 package com.pony.concurrent.ch2.tools;
 
-import java.util.concurrent.CountDownLatch;
-
 import com.pony.concurrent.tools.SleepTools;
 
+import java.util.concurrent.CountDownLatch;
+
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：演示CountDownLatch，有5个初始化的线程，6个扣除点，
  *扣除完毕以后，主线程和业务线程才能继续自己的工作

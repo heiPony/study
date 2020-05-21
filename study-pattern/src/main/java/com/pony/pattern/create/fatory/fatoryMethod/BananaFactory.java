@@ -1,7 +1,7 @@
 package com.pony.pattern.create.fatory.fatoryMethod;
 
-import com.pony.pattern.entity.fruit.Banana;
 import com.pony.pattern.entity.Fruit;
+import com.pony.pattern.entity.fruit.Banana;
 
 /**
  * 工厂方法模式

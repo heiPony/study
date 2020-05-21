@@ -3,7 +3,7 @@ package com.pony.concurrent.ch3;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：
  */

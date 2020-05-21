@@ -1,12 +1,10 @@
 package com.pony.concurrent.ch6.mypool;
 
-import java.util.LinkedList;
-import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：自己线程池的实现
  */

@@ -1,18 +1,14 @@
 package com.pony.concurrent.ch1.pool;
 
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
+import com.pony.concurrent.tools.SleepTools;
+
 import java.sql.*;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.Executor;
-import java.util.concurrent.TimeUnit;
-
-import com.pony.concurrent.tools.SleepTools;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：实现了数据库连接的实现
  */

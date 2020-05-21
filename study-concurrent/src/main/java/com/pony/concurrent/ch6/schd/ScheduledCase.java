@@ -1,13 +1,10 @@
 package com.pony.concurrent.ch6.schd;
 
-import java.util.Date;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import com.pony.concurrent.tools.SleepTools;
-
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：演示ScheduledThreadPoolExecutor的用法
  */

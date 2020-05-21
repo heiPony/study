@@ -1,7 +1,5 @@
 package com.pony.concurrent.ch5;
 
-import java.util.concurrent.ConcurrentHashMap;
-
 public class TestMap18 {
 	public static void main(String[] args) {
 //		ConcurrentHashMap<String,String> map = new ConcurrentHashMap<>();

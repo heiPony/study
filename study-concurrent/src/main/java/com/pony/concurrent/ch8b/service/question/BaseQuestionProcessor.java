@@ -1,12 +1,11 @@
 package com.pony.concurrent.ch8b.service.question;
 
+import com.pony.concurrent.ch8b.assist.SL_Busi;
+
 import java.util.Random;
 
-import com.pony.concurrent.ch8b.assist.SL_Busi;
-import com.pony.concurrent.ch8b.assist.SL_QuestionBank;
-
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：单个题目的处理器，可以看成DAO层
  */

@@ -1,12 +1,12 @@
 package com.pony.concurrent.ch2.tools.semaphore;
 
+import com.pony.concurrent.tools.SleepTools;
+
 import java.sql.Connection;
 import java.util.Random;
 
-import com.pony.concurrent.tools.SleepTools;
-
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author
  *
  *类说明：测试数据库连接池
  */
