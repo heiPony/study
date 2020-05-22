@@ -9,17 +9,23 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.pony</groupId>
-    <artifactId>concurrent</artifactId>
+    <artifactId>study-concurrent</artifactId>
+    <name>study-concurrent</name>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>concurrent</name>
-    <description>Demo project for Spring Boot</description>
+
 
     <properties>
+        <skipTests>true</skipTests>
         <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.pony</groupId>
+            <artifactId>study-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
