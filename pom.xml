@@ -17,10 +17,10 @@
 
     <modules>
         <module>study-common</module>
-        <module>study-concurrent</module>
+        <module>study-spring</module>
         <module>study-jvm</module>
         <module>study-pattern</module>
-        <module>study-spring</module>
+        <module>study-concurrent</module>
     </modules>
 
     <dependencies>
