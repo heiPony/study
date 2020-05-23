@@ -1,11 +1,13 @@
 package com.pony.springTest.cha1.config;
 
 import com.pony.common.pojo.spring.Person;
+import com.pony.springTest.cha1.controller.TestController;
 import org.springframework.context.annotation.*;
-import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Service;
 
 @Configuration
-@ComponentScan(value = "com.pony.springTest.cha1")
+@ComponentScan(value = "com.pony.springTest.cha1", includeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION,classes = {Service.class})},
+        useDefaultFilters = false)
 public class AppConfig_2 {
 
     @Scope("prototype")
