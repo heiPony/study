@@ -1,4 +1,4 @@
-package com.pony.springTest.cha2.pojo;
+package com.pony.common.pojo.spring;
 
 public class Person {
 
