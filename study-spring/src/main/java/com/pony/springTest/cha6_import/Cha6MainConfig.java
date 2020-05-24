@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.Lazy;
 
 @Configuration
-@Import(value = {Dog.class, Cat.class, PonyImportSelector.class,PonyImportBeanDefinitionRegistrar.class})
+@Import(value = {Dog.class, Cat.class, PonyImportSelector.class,PonyImportBeanDefinitionRegistrar.class,PonyFactoryBean.class})
 public class Cha6MainConfig {
     //给容器中注册组件的方式
     //1、@Bean：导入第三方的类或包的组件，比如Person 为第三方的类，需要在我们的IOC容器中使用
@@ -25,6 +25,10 @@ public class Cha6MainConfig {
     public Person person(){
         System.out.println("给容器中添加 person");
         return new Person("person",20);
+    }
+    @Bean
+    public PonyFactoryBean ponyFactoryBean(){
+        return new PonyFactoryBean();
     }
 
 }
