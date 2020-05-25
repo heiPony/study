@@ -1,4 +1,4 @@
-package com.pony.springTest.cha0_bean;
+package com.pony.common.pojo.spring;
 
 import org.springframework.stereotype.Component;
 

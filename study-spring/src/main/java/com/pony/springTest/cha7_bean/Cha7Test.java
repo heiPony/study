@@ -1,6 +1,5 @@
 package com.pony.springTest.cha7_bean;
 
-import com.pony.springTest.cha6_import.Cha6MainConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Cha7Test {
