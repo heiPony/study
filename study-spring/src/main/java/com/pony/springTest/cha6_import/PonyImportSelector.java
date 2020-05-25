@@ -7,6 +7,6 @@ public class PonyImportSelector implements ImportSelector {
 
     @Override
     public String[] selectImports(AnnotationMetadata importingClassMetadata) {
-        return new String[]{"com.pony.springTest.cha6_import.pojo.Tiger","com.pony.springTest.cha6_import.pojo.Fish"};
+        return new String[]{"com.pony.common.pojo.spring.Tiger","com.pony.common.pojo.spring.Fish"};
     }
 }

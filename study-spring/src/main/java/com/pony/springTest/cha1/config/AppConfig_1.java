@@ -3,7 +3,6 @@ package com.pony.springTest.cha1.config;
 import com.pony.common.pojo.spring.Person;
 import com.pony.springTest.cha1.controller.TestController;
 import org.springframework.context.annotation.*;
-import org.springframework.stereotype.Service;
 
 @Configuration
 @ComponentScan(value = "com.pony.springTest.cha1", excludeFilters = {@ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {TestController.class})})

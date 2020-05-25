@@ -1,7 +1,6 @@
 package com.pony.springTest.cha1.config;
 
 import com.pony.common.pojo.spring.Person;
-import com.pony.springTest.cha1.controller.TestController;
 import org.springframework.context.annotation.*;
 import org.springframework.stereotype.Service;
 

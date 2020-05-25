@@ -1,15 +1,14 @@
 package com.pony.springTest.cha6_import;
 
+import com.pony.common.pojo.spring.Cat;
+import com.pony.common.pojo.spring.Dog;
 import com.pony.common.pojo.spring.Person;
-import com.pony.springTest.cha6_import.pojo.Cat;
-import com.pony.springTest.cha6_import.pojo.Dog;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
-import org.springframework.context.annotation.Lazy;
 
 @Configuration
-@Import(value = {Dog.class, Cat.class, PonyImportSelector.class,PonyImportBeanDefinitionRegistrar.class,PonyFactoryBean.class})
+@Import(value = {Dog.class, Cat.class, PonyImportSelector.class,PonyImportBeanDefinitionRegistrar.class})
 public class Cha6MainConfig {
     //给容器中注册组件的方式
     //1、@Bean：导入第三方的类或包的组件，比如Person 为第三方的类，需要在我们的IOC容器中使用

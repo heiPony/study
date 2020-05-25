@@ -1,6 +1,6 @@
 package com.pony.springTest.cha6_import;
 
-import com.pony.springTest.cha6_import.pojo.Monkey;
+import com.pony.common.pojo.spring.Monkey;
 import org.springframework.beans.factory.FactoryBean;
 
 public class PonyFactoryBean implements FactoryBean {
