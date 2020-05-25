@@ -1,11 +1,15 @@
 package com.pony.common.pojo.spring;
 
 public class Person {
+    public Person() {
+        System.out.println("Person...........constructor..........");
+    }
 
     private String name;
     private Integer age;
 
     public Person(String name, Integer age) {
+        System.out.println("Person...........constructor..........");
         this.name = name;
         this.age = age;
     }
