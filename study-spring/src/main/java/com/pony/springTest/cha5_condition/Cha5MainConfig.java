@@ -8,11 +8,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class Cha5MainConfig {
 
-    @Bean
-    public Person person(){
-        System.out.println("给容器中添加 person");
-        return new Person("person",10);
-    }
+//    @Bean
+//    public Person person(){
+//        System.out.println("给容器中添加 person");
+//        return new Person("person",10);
+//    }
 
     @Conditional(WinCondition.class)
     @Bean

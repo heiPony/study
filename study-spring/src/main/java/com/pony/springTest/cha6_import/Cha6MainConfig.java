@@ -20,11 +20,11 @@ public class Cha6MainConfig {
     //  b、ImportSelector接口：返回需要导入到容器的组件的全类名数组
     //  c、ImportBeanDefinitionRegistrar：可以手动添加组件到IOC容器，所有Bean注册可以使用BeanDefinitionRegistry
     //4、使用spring提供的FactoryBean(工厂Bean) 注册
-    @Bean
-    public Person person(){
-        System.out.println("给容器中添加 person");
-        return new Person("person",20);
-    }
+//    @Bean
+//    public Person person(){
+//        System.out.println("给容器中添加 person");
+//        return new Person("person",20);
+//    }
     @Bean
     public PonyFactoryBean ponyFactoryBean(){
         return new PonyFactoryBean();

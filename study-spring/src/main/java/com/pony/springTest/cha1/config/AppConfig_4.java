@@ -8,11 +8,11 @@ import org.springframework.context.annotation.*;
         includeFilters = {@ComponentScan.Filter(type = FilterType.CUSTOM, classes = {PonyTypeFilter.class})},useDefaultFilters = false)
 public class AppConfig_4 {
 
-    @Scope("prototype")
-    @Bean
-    public Person person(){
-        return new Person("Pony",20);
-    }
+//    @Scope("prototype")
+//    @Bean
+//    public Person person(){
+//        return new Person("Pony",20);
+//    }
     public static void main(String[] args) {
         AnnotationConfigApplicationContext app = new AnnotationConfigApplicationContext(AppConfig_4.class);
         String[] names = app.getBeanDefinitionNames();

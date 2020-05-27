@@ -9,11 +9,11 @@ import org.springframework.stereotype.Service;
         useDefaultFilters = false)
 public class AppConfig_2 {
 
-    @Scope("prototype")
-    @Bean
-    public Person person(){
-        return new Person("Pony",20);
-    }
+//    @Scope("prototype")
+//    @Bean
+//    public Person person(){
+//        return new Person("Pony",20);
+//    }
     public static void main(String[] args) {
         AnnotationConfigApplicationContext app = new AnnotationConfigApplicationContext(AppConfig_2.class);
         String[] names = app.getBeanDefinitionNames();

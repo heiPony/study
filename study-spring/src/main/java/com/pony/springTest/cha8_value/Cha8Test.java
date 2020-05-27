@@ -1,9 +1,7 @@
 package com.pony.springTest.cha8_value;
 
 import com.pony.common.pojo.spring.Bird;
-import com.pony.springTest.cha6_import.Cha6MainConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.Bean;
 
 public class Cha8Test {
 

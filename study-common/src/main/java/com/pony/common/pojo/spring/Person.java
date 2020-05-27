@@ -1,5 +1,8 @@
 package com.pony.common.pojo.spring;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Person {
     public Person() {
         System.out.println("Person...........constructor..........");

@@ -9,11 +9,11 @@ import org.springframework.context.annotation.Scope;
 public class Cha3MainConfig {
 
 //    @Scope("singleton")
-    @Scope("prototype")
-    @Bean
-    public Person person(){
-        System.out.println("创建实例 person");
-        return new Person("Pony",20);
-    }
+//    @Scope("prototype")
+//    @Bean
+//    public Person person(){
+//        System.out.println("创建实例 person");
+//        return new Person("Pony",20);
+//    }
 
 }

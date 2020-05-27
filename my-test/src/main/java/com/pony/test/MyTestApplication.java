@@ -1,4 +1,4 @@
-package com.pony.mytest;
+package com.pony.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,10 +10,6 @@ public class MyTestApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(MyTestApplication.class, args);
-        AsyncTest asyncTest = new AsyncTest();
-        Java8 java8 = new Java8();
-        asyncTest.str();
-        java8.test();
     }
 
 }

@@ -8,7 +8,7 @@ import org.springframework.context.annotation.*;
         excludeFilters = {@ComponentScan.Filter(type = FilterType.CUSTOM, classes = {PonyTypeFilter.class})})
 public class AppConfig {
 
-    @Scope("prototype")
+//    @Scope("prototype")
     @Bean
     public Person person(){
         return new Person("Pony",20);
