@@ -1,21 +1,18 @@
 package com.pony.springTest.cha10_aop;
 
 
-import com.alibaba.fastjson.JSONObject;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.springframework.stereotype.Component;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 //日志切面类
 @Aspect
 public class PonyAspects {
-
     @Pointcut("execution(public int com.pony.springTest.cha10_aop.Calculator.*(..))")
     public void pointCut() {
-
     }
 
     @Before("execution(public int com.pony.springTest.cha10_aop.Calculator.div(int, int))")
